@@ -13,7 +13,7 @@
    * @constructor
    */
   function UserService($q){
-    var users = [
+    var notUsers = [
       {
         name: 'Lia Lugo',
         avatar: 'svg-1',
@@ -45,7 +45,52 @@
         content: "Lebowski ipsum yeah? What do you think happens when you get rad? You turn in your library card? Get a new driver's license? Stop being awesome? Dolor sit amet, consectetur adipiscing elit praesent ac magna justo pellentesque ac lectus. You don't go out and make a living dressed like that in the middle of a weekday. Quis elit blandit fringilla a ut turpis praesent felis ligula, malesuada suscipit malesuada."
       }
     ];
-
+    var users = [
+      {
+        name: 'Avatar',
+        id: 1,
+        genre_Id: 8,
+        title: 'Avatar',
+        year: 2009,
+        rating: 'PG',
+        cost: 22,
+        description: "On the lush alien world of Pandora live the Na\'vi, beings who appear primitive but are highly evolved. Because the planet\'s environment is poisonous, human/Na\'vi hybrids, called Avatars, must link to human minds to allow for free movement on Pandora. Jake Sully (Sam Worthington), a paralyzed former Marine, becomes mobile again through one such Avatar and falls in love with a Na''vi woman (Zoe Saldana). As a bond with her grows, he is drawn into a battle for the survival of her world.",
+        image_url: 'https://images-na.ssl-images-amazon.com/images/I/51wYAC4gG3L._SX200_QL80_.jpg'
+      },
+      {
+        name: 'Maverick',
+        id: 2,
+        genre_Id: 2,
+        title: 'Maverick',
+        year: 1997,
+        rating: 'PG',
+        cost: 15,
+        description: 'This film update of the "Maverick" TV series finds the title cardsharp (Mel Gibson) hoping to join a poker contest with an impressive payoff. In order to enter, Maverick must first put up a large cash sum. He scams hopeful contestants Annabelle (Jodie Foster) and Angel (Alfred Molina) in a preliminary card game to win the money he needs, making enemies of both players. While trying to evade Annabelle and Angel, the crafty Maverick realizes a cunning marshal (James Garner) is also on his tail.',
+        image_url: 'https://images-na.ssl-images-amazon.com/images/I/513qoEUIAoL._AC_US160_.jpg'
+      },
+      {
+        name: 'Saving Private Ryan',
+        id: 3,
+        genre_Id: 9,
+        title: 'Saving Private Ryan',
+        year: 1998,
+        rating: 'R',
+        cost: 25,
+        description: 'Captain John Miller (Tom Hanks) takes his men behind enemy lines to find Private James Ryan, whose three brothers have been killed in combat. Surrounded by the brutal realties of war, while searching for Ryan, each man embarks upon a personal journey and discovers their own strength to triumph over an uncertain future with honor, decency and courage.',
+        image_url: 'https://images-na.ssl-images-amazon.com/images/I/51ApdjSEzLL._AC_US160_.jpg'
+      },
+      {
+        name: 'Killing Private Ryan',
+        id: 4,
+        genre_Id: 9,
+        title: 'Killing Private Ryan',
+        year: 1998,
+        rating: 'R',
+        cost: 25,
+        description: 'Captain John Miller (Tom Hanks) takes his men behind enemy lines to find Private James Ryan, whose three brothers have been killed in combat. Surrounded by the brutal realties of war, while searching for Ryan, each man embarks upon a personal journey and discovers their own strength to triumph over an uncertain future with honor, decency and courage.',
+        image_url: 'https://images-na.ssl-images-amazon.com/images/I/51ApdjSEzLL._AC_US160_.jpg'
+      },
+    ]
     // Promise-based API
     return {
       loadAllUsers : function() {
