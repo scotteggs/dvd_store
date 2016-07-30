@@ -6,10 +6,9 @@ html, body {
   padding: 0px;
 }
 
-/* Toolbar area */
+/* Toolbar area title */
 .title {
-  padding-left: 50px;
-   
+  padding-left: 50px;   
 }
 .menu {
   background-color: transparent;
@@ -26,16 +25,23 @@ md-toolbar h3 {
 }
 
 /* Sidenav area */
-
+img {
+  padding: 10px;
+  width: 130px;
+  height: 130px;
+  margin-right: .5em;
+  margin-bottom: .3em;
+}
 md-list-item > button {
   width:100%;
   text-align:left !important;
 }
-
+  /*movie img-button on side nav bar*/
   md-list .md-button.selected {
+    /*movie title button*/
     color: #03a9f4;
   }
-
+  /*side nav bar content*/
   md-sidenav  md-list {
     padding: 0px 0px 8px 0px;
   }
@@ -47,12 +53,14 @@ md-list-item > button {
   overflow: hidden;
 }
 
+/*movie description content page*/
 #content  {
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 5px;
 }
 
+/*share button*/
 #content .md-button.share {
   background-color: transparent;
   border: none;
@@ -101,11 +109,14 @@ md-button.menuBtn > md-icon {
 
 /* Typography support coming in 0.8.0 */
 
+/*DVD Store title*/
 md-toolbar h1 {
   font-size: 1.250em;
   font-weight: 400;
+
 }
 
+/*rect image*/
 .avatar {
   position: relative;
   width: 128px;
@@ -120,6 +131,7 @@ md-toolbar h1 {
   transform: translateZ(0);
   -webkit-transform: scale(0.70);
   -moz-transform:scale(0.70);
+  background-color: yellow; 
 }
 
 
