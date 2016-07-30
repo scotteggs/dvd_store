@@ -55,6 +55,16 @@
         description: "The story of a man (Matt Damon), salvaged, near death, from the ocean by an Italian fishing boat. When he recuperates, the man suffers from total amnesia, without identity or background... except for a range of extraordinary talents in fighting, linguistic skills and self-defense that speak of a dangerous past. He sets out on a desperate search-assisted by the initially rebellious Marie (Franka Potente) - to discover who he really is, and why he''s being lethally pursued by assassins.",
         imageURL: './assets/images/bourneidentity.jpg'
       },
+      {
+        id: 10,
+        genre_Id: 9,
+        title: 'Day One',
+        year: 1989,
+        rating: 'PG',
+        cost: 13,
+        description: "Based on true events surrounding the creation of the atomic bomb, this drama follows the complicated relationship between physicist Leo Szilard (Michael Tucker), scientist J. Robert Oppenheimer (David Strathairn) and Gen. Leslie Groves (Brian Dennehy). Assigned to oversee the project, Groves chooses Oppenheimer to build the historic bomb. But, when World War II inspires the government to use the weapon, Szilard reconsiders his opinions about atomic warfare.",
+        imageURL: './assets/images/dayone.jpg'
+      },
 
     ]
     // Promise-based API
